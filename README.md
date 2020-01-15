@@ -1,4 +1,4 @@
-#Flu & Cold in Babies and Toodlers
+# Flu & Cold in Babies and Toodlers
 
 One or two paragraphs providing an overview of your project.
 
@@ -74,19 +74,22 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+- The text for section # was copied from the [ NHS West Hampshire CCG website](https://hereforyouhampshire.nhs.uk/ColdOrFlu.html)
+- Checked post on [ Stackoverflow Change position of navbar-brand](https://stackoverflow.com/questions/55443820/change-position-of-navbar-brand)
 ### Media
 - The photos used in this site were obtained from Unsplash
-    https://unsplash.com/photos/eJwSOguD1rE - Crib Photo by Bastien Jaillot on Unsplash
-    https://unsplash.com/photos/lP51ekRTh9Y - Baby Cute Face Photo by Brytny.com on Unsplash
-    https://unsplash.com/photos/MPpIqkoi7hQ - Baby feet Photo by Danielle MacInnes on Unsplash
-    https://unsplash.com/photos/qJVluHTPx7U - Baby and Nature Photo by Janko Ferlič - @specialdaddy on Unsplash
-    https://unsplash.com/photos/5nB578tEtb8 - Baby Halloween Photo by Taylor Harding on Unsplash
-    https://unsplash.com/photos/yKPlmKNMxIE - Baby and Cream Photo by Brandless on Unsplash
-    https://unsplash.com/photos/9_3V4UgCvVM - Baby and Siblings Photo by Omar Lopez on Unsplash
+    
+    
+    (https://unsplash.com/photos/eJwSOguD1rE) - Crib Photo by Bastien Jaillot on Unsplash
+    (https://unsplash.com/photos/lP51ekRTh9Y) - Baby Cute Face Photo by Brytny.com on Unsplash
+    (https://unsplash.com/photos/MPpIqkoi7hQ) - Baby feet Photo by Danielle MacInnes on Unsplash
+    (https://unsplash.com/photos/qJVluHTPx7U) - Baby and Nature Photo by Janko Ferlič - @specialdaddy on Unsplash
+    (https://unsplash.com/photos/5nB578tEtb8) - Baby Halloween Photo by Taylor Harding on Unsplash
+    (https://unsplash.com/photos/yKPlmKNMxIE) - Baby and Cream Photo by Brandless on Unsplash
+    (https://unsplash.com/photos/9_3V4UgCvVM) - Baby and Siblings Photo by Omar Lopez on Unsplash
 
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my midwifery team and baby girl Lia.
+- I received inspiration for the layout of this project from Helixes (https://helixes.co/en/).

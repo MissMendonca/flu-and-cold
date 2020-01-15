@@ -87,7 +87,15 @@ In addition, if it is not obvious, you should also describe how to run your code
     (https://unsplash.com/photos/5nB578tEtb8) - Baby Halloween Photo by Taylor Harding on Unsplash
     (https://unsplash.com/photos/yKPlmKNMxIE) - Baby and Cream Photo by Brandless on Unsplash
     (https://unsplash.com/photos/9_3V4UgCvVM) - Baby and Siblings Photo by Omar Lopez on Unsplash
-
+    (https://unsplash.com/photos/a1p0Z7RSkL8) - Arm Vaccination Photo by Hyttalo Souza on Unsplash
+    (https://unsplash.com/photos/RmByg5kFfQg) - Sick days accessories Photo by Kelly Sikkema on Unsplash
+    (https://unsplash.com/photos/JYFmYif4n70) - Lemon Ginger tea Photo by Dominik Martin on Unsplash
+    (https://unsplash.com/photos/_zFRhU7jqzc) - Flu Vaccine Photo by CDC on Unsplash
+    (https://unsplash.com/photos/voVYCm6xoQo) - Child vaccination Photo by CDC on Unsplash
+    (https://unsplash.com/photos/m0l5J8Lqnzo) - Bed Resting Photo by David Mao on Unsplash
+    (https://unsplash.com/photos/LiNIONbajm4) - Flu Virus particles Photo by CDC on Unsplash
+    
+   
 
 ### Acknowledgements
 

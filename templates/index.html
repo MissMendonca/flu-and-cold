@@ -6,15 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css" type="text/css" />
-    <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css" type="text/css" />
-    <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../static/assets/css/style.css" type="text/css" />
     <title>Flu & Cold in Babies and Toodlers</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
             <button class="navbar-toggler" type="button" data-toggle="collapse" 
                 data-target="#navbarFluCold" aria-controls="navbarFluCold" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,29 +35,30 @@
                     </li>
                 </ul>
             </div>
-            <a class="navbar-brand mr-right" href="#">Navbar</a>
+            <a class="navbar-brand mr-right" href="#"><span class="brand">GHS</span></a>
         </nav>
     </header>
     <section>
         <div class="main-page">
             <!--Bootstrap 4 text transformation center -->
             <div class="h1-container">
-                <h1 class="text-center h1-padding">
-                    <br><span>Flu and Cold</span>
+                <!--Bootstrap padding left 5-->
+                <h1 class="pl-5 h1-padding">
+                    <br><span>Flu & Cold</span>
                     <br><span>in</span>
                     <br><span>Babies and Toodlers</span>
                 </h1>
             </div>
         </div>
         <div id="introduction" class="">
-            <div class="container">
+            <div class="container pt-4">
                 <!--Bootstrap 4 padding top and bottom 4-->
                 <h2 class="py-4">Flu & Cold</h2>
                 <!--Bootstrap 4 Grid System-->
                 <div class="row">
                     <div class="col-sm-6 intro-img">
                         <!--Bootstrap 4 width 100-->
-                        <img class="w-100" src="../media/photos/flu_virus_particles.jpg" alt="Flu Virus Particles">
+                        <img class="w-100" src="../static/assets/media/photos/flu_virus_particles.jpg" alt="Flu Virus Particles">
                     </div>
                     <div class="col-sm-6 intro-text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -88,7 +86,7 @@
                 </div>
                     <div class="col-sm-6 sympt-img">
                         <!--Bootstrap 4 width 100 and padding bottom and top 3-->
-                        <img class="w-100 py-3" src="../media/photos/bed_resting.jpg" alt="Bed Resting">
+                        <img class="w-100 py-3" src="../static/assets/media/photos/baby_cute_face.jpg" alt="Baby Cute Face">
                     </div>
                 </div>
             </div>
@@ -101,7 +99,7 @@
                 <div class="row">
                     <div class="col-sm-6 preven-img">
                         <!--Bootstrap 4 width 100-->
-                        <img class="w-100" src="../media/photos/arm_vaccination.jpg" alt="Arm vaccination">
+                        <img class="w-100" src="../static/assets/media/photos/arm_vaccination.jpg" alt="Arm vaccination">
                     </div>
                     <div class="col-sm-6 preven-text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis enim omnis sapiente dignissimos, dolores illum at, iusto? 
@@ -127,20 +125,21 @@
                     </div>
                     <div class="col-sm-6 treat-img">
                         <!--Bootstrap 4 width 100 and padding bottom and top 3-->
-                        <img class="w-100 py-3" src="../media/photos/lemon_ginger_tea.jpg" alt="Lemon & Ginger tea">
+                        <img class="w-100 py-3" src="../static/assets/media/photos/lemon_ginger_tea.jpg" alt="Lemon & Ginger tea">
                     </div>
                 </div>
             </div>
         </div>
         <div id="free-vaccination">
-            <div class="container">
+            <!--Bootsrap padding bottom 5-->
+            <div class="container pb-5">
                 <!--Bootstrap 4 padding top and bottom 4-->
                 <h2 class="py-4">Find free Flu vaccination</h2>
                 <!--Bootstrap Grid System-->
                 <div class="row">
                     <div class="col-sm-6 vac-img">
                         <!--Bootstrap 4 width 100-->
-                        <img class="w-100" src="../media/photos/flu_vaccine.jpg" alt="Flu Vaccine">
+                        <img class="w-100" src="../static/assets/media/photos/flu_vaccine.jpg" alt="Flu Vaccine">
                     </div>
                     <div class="col-sm-6 vac-text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -154,36 +153,34 @@
     </section>
     <footer>
         <!--Bootstrap 4 padding bottom and top 3-->
-        <div class="container-fluid py-3">
+        <div class="bg-footer container-fluid py-3">
             <!--Bootstrap 4 Grid System-->
             <div class="row">
                 <div class="col-sm-2 offset-sm-1">
-                    <span><a href="#" target="_blank">Contact & Address</a></span>
+                    <span class="footer-items"><a href="#" target="_blank">Contact & Address</a></span>
                 </div>
                 <div class="col-sm-2">
-                    <span><a href="#" target="_blank">Terms of Service</a></span>
+                    <span class="footer-items"><a href="#" target="_blank">Terms of Service</a></span>
                 </div>
                 <div class="col-sm-2">
-                    <span><a href="#" target="_blank"> Privacy Policy</a></span>
+                    <span class="footer-items"><a href="#" target="_blank"> Privacy Policy</a></span>
                 </div>
-                <!--Bootstrap 4 text muted and font weight light-->
-                <div class="col-sm-2 font-weight-light text-muted">
-                    <span>Copyright@2020 GHS UK</span>
+                <div class="col-sm-2">
+                    <span class="footer-items">Copyright@2020 GHS</span>
                 </div>
-                <!--Bootstrap 4 text muted and font weight light-->
-                <div class="col-sm-2 font-weight-light text-muted">
-                    <span>All Rights Reserved</span>
+                <div class="col-sm-2">
+                    <span class="footer-items">All Rights Reserved</span>
                 </div>
             </div>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="../assets/js/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="../static/assets/js/granim.min.js"></script>
+    <script src="../static/assets/js/main.js"></script>
 </body>
 </html>

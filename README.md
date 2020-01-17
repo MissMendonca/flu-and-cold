@@ -23,8 +23,7 @@ In this section, you should go over the different parts of your project, and des
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - Feature 2 - Scroll button in the main page allows user to go to the following section(Flu & Cold), when they click on the button(anchor tag).
-    Code from[Stackoverflow post "Smooth scroll to div id jQuery"](https://stackoverflow.com/questions/19012495/smooth-scroll-to-div-id-jquery/22455323)
-
+   
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
@@ -41,6 +40,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The project uses **JQuery** to simplify DOM manipulation.
 - [AOS Animate On Scroll Library](https://michalsnik.github.io/aos/)
     - The project uses **AOS** to animate on Scroll
+- [Jasmine Framework](https://jasmine.github.io/)
+    - The project uses **Jasmine** to test javascript function
 
 ## Testing
 
@@ -78,10 +79,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 - The text for section # was copied from the [ NHS West Hampshire CCG website](https://hereforyouhampshire.nhs.uk/ColdOrFlu.html)
-- Checked post on [ Stackoverflow Change position of navbar-brand](https://stackoverflow.com/questions/55443820/change-position-of-navbar-brand)
+- Read post on [Stackoverflow "Change position of navbar-brand"](https://stackoverflow.com/questions/55443820/change-position-of-navbar-brand)
+- Read post on [Wikipedia "Postcodes in the United Kingdom"](https://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom)
+- Read post on [Stackoverflow "Smooth scroll to div id jQuery"](https://stackoverflow.com/questions/19012495/smooth-scroll-to-div-id-jquery/22455323)
+- Read post on [Stackoverflow "Check if string contains only digits"](https://stackoverflow.com/questions/1779013/check-if-string-contains-only-digits)
+- Read post on [GeeksForGeeks "Match"](https://www.geeksforgeeks.org/javascript-match/)
+
+
 ### Media
+
 - The photos used in this site were obtained from Unsplash
-    
     
     (https://unsplash.com/photos/eJwSOguD1rE) - Crib Photo by Bastien Jaillot on Unsplash
     (https://unsplash.com/photos/lP51ekRTh9Y) - Baby Cute Face Photo by Brytny.com on Unsplash
@@ -98,7 +105,6 @@ In addition, if it is not obvious, you should also describe how to run your code
     (https://unsplash.com/photos/m0l5J8Lqnzo) - Bed Resting Photo by David Mao on Unsplash
     (https://unsplash.com/photos/LiNIONbajm4) - Flu Virus particles Photo by CDC on Unsplash
     
-   
 
 ### Acknowledgements
 

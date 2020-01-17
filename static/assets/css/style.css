@@ -72,6 +72,13 @@ h2{
     font-size: x-large;
 }
 
+#bottom-page-scroll{
+    text-align: center;
+    color:#ffbf00;
+    font-size: x-large;
+}
+
+
 /*---Hover---*/
 
 .footer-items a:hover, .footer-items:hover,.navbar-light .navbar-nav .nav-link:hover {

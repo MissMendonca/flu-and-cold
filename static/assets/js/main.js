@@ -30,6 +30,14 @@ $( document ).ready(function() {
       scrollTop: $("#free-vaccination").offset().top
     }, 3500);
   });
+  
+  $("#scroll-up").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#beginning").offset().top
+    }, 3000);
+  });
+  
+  
 
 /---Initializing AOS---/ 
   AOS.init();

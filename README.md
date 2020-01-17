@@ -22,11 +22,13 @@ In this section, you should go over the different parts of your project, and des
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Feature 2 - Scroll button in the main page allows user to go to the following section(Flu & Cold), when they click on the button(anchor tag).
+    Code from[Stackoverflow post "Smooth scroll to div id jQuery"](https://stackoverflow.com/questions/19012495/smooth-scroll-to-div-id-jquery/22455323)
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+-
 
 ### Features Left to Implement
 - Another feature idea
@@ -37,7 +39,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-
+- [AOS Animate On Scroll Library](https://michalsnik.github.io/aos/)
+    - The project uses **AOS** to animate on Scroll
 
 ## Testing
 

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1177ed485.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../static/assets/css/style.css" type="text/css" />
     <title>Flu & Cold in Babies and Toodlers</title>
 </head>
@@ -19,19 +21,19 @@
             <div class="collapse navbar-collapse" id="navbarFluCold">
                 <ul class="navbar-nav mr-left">
                     <li class="nav-item">
-                        <a class="nav-link" href="#introduction">Flu & Cold</a>
+                        <a class="smooth nav-link" href="#introduction">Flu & Cold</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#symptoms">Symptoms</a>
+                        <a class="nav-link" id="nav_sym" href="#symptoms">Symptoms</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#prevention">Prevention</a>
+                        <a class="nav-link" id="nav_prev" href="#prevention">Prevention</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#treatment">Treatment</a>
+                        <a class="nav-link" id="nav_treat" href="#treatment">Treatment</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#free-vaccination">Free Vaccination</a>
+                        <a class="nav-link" id="nav_vac" href="#free-vaccination">Free Vaccination</a>
                     </li>
                 </ul>
             </div>
@@ -48,9 +50,16 @@
                     <br><span>in</span>
                     <br><span>Babies and Toodlers</span>
                 </h1>
+                <!--Bootstrap padding left 5-->
+                <div class="smooth text-scroll pl-5">
+                    <a><span>
+                        <!--Fontawesome Chevron down and Bootstrap 4 padding left 4-->
+                        Scroll<br><i class="fas fa-chevron-down pl-4"></i>
+                    </span></a>
+                </div>
             </div>
         </div>
-        <div id="introduction" class="">
+        <div id="introduction">
             <div class="container pt-4">
                 <!--Bootstrap 4 padding top and bottom 4-->
                 <h2 class="py-4">Flu & Cold</h2>
@@ -66,6 +75,10 @@
                         dicta quo debitis nisi doloribus quaerat soluta animi eius eligendi. 
                         Nihil quidem cum magni vero veniam mollitia velit, quaerat nesciunt, voluptate ex, 
                         adipisci fugit ipsum! Ducimus laboriosam officia illum repellendus veritatis.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quisquam placeat facere quae, 
+                        fugiat modi, quas iusto, accusantium dignissimos sed nemo maiores quod minima quaerat sapiente eligendi. 
+                        Repudiandae ea porro aliquid ipsam tempora sed at, molestias ex deleniti obcaecati sint, itaque assumenda! 
+                        Dolor voluptates aperiam odit. Nostrum, iure eaque dolorum.
                     </div>
                 </div>
             </div>
@@ -91,7 +104,7 @@
                 </div>
             </div>
         </div>
-        <div id="prevention">
+        <div id="prevention" >
             <div class="container">
                 <!--Bootstrap 4 padding top and bottom 4-->
                 <h2 class="py-4">Prevention</h2>
@@ -102,13 +115,14 @@
                         <img class="w-100" src="../static/assets/media/photos/arm_vaccination.jpg" alt="Arm vaccination">
                     </div>
                     <div class="col-sm-6 preven-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis enim omnis sapiente dignissimos, dolores illum at, iusto? 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis enim omnis sapiente dignissimos,
+                        dolores illum at, iusto? 
                         Non inventore quis, consequuntur praesentium, iusto nemo at, rerum deleniti quae quod esse.
                     </div>
                 </div>
             </div>
         </div>
-        <div id="treatment">
+        <div id="treatment" >
             <div class="container">
                 <!--Bootstrap 4 padding top and bottom 4-->
                 <h2 class="text-right py-4">Treatment</h2>
@@ -130,7 +144,7 @@
                 </div>
             </div>
         </div>
-        <div id="free-vaccination">
+        <div id="free-vaccination" >
             <!--Bootsrap padding bottom 5-->
             <div class="container pb-5">
                 <!--Bootstrap 4 padding top and bottom 4-->
@@ -174,13 +188,13 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="../static/assets/js/granim.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../static/assets/js/main.js"></script>
 </body>
 </html>

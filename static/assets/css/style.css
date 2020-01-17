@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio|Prata&display=swap');
+
+
+/*---Background Colors---*/
+
+.bg-navbar, .bg-footer{
+    background-color:#ffbf00;
+}
+
+section{
+    background-color: #fffefc;
+}
+
+
+/*---Navbar & Footer---*/
+
+.navbar-light .navbar-nav .nav-link, .footer-items a, .footer-items{
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Gelasio', serif;
+}
+
+.footer-items a, .footer-items{
+    font-size: 1.1em;
+}
+
+
+/*---Section---*/
+
+.h1-container{
+    background-image: url(../media/photos/baby_feet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.brand, .h1-container h1{
+    font-family: 'Prata', serif;
+    color: #fff;
+    font-weight: 700;
+}
+
+.h1-container h1{
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+h2{
+    color: #ffbf00;
+    font-size: 2.3em;
+    font-family: 'Prata', serif;
+}
+
+/*---Margins, Paddings, Text alignment---*/
+
+.h1-padding{
+    padding-top: 17.5%;
+    padding-bottom: 20%;
+}
+
+.right{
+    text-align: right;
+}
+
+/*---Scroll bottom---*/
+
+.text-scroll a{
+    position: absolute;
+    margin-top: -10%;
+    color:#fff;
+    font-family: 'Prata', serif;
+    font-size: x-large;
+}
+
+/*---Hover---*/
+
+.footer-items a:hover, .footer-items:hover,.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.5);
+    text-decoration: underline;
+}
+
+.text-scroll a:hover{
+   color:#ffbf00; 
+   text-decoration: none;
+}

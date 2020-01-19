@@ -62,6 +62,7 @@ h2{
     text-align: right;
 }
 
+
 /*---Scroll bottom---*/
 
 .text-scroll a{
@@ -78,6 +79,11 @@ h2{
     font-size: x-large;
 }
 
+/*---Others---*/
+
+.hide{
+    display: none;
+}
 
 /*---Hover---*/
 

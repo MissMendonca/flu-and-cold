@@ -82,9 +82,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 - Read post on [Stackoverflow "Change position of navbar-brand"](https://stackoverflow.com/questions/55443820/change-position-of-navbar-brand)
 - Read post on [Wikipedia "Postcodes in the United Kingdom"](https://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom)
 - Read post on [Stackoverflow "Smooth scroll to div id jQuery"](https://stackoverflow.com/questions/19012495/smooth-scroll-to-div-id-jquery/22455323)
+- Read post on [W3Resource "JavaScript: HTML Form - checking for numbers and letters"](https://www.w3resource.com/javascript/form/letters-numbers-field.php)
 - Read post on [Stackoverflow "Check if string contains only digits"](https://stackoverflow.com/questions/1779013/check-if-string-contains-only-digits)
 - Read post on [GeeksForGeeks "Match"](https://www.geeksforgeeks.org/javascript-match/)
-
 
 ### Media
 

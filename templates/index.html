@@ -104,7 +104,7 @@
                 </div>
             </div>
         </div>
-        <div id="prevention" >
+        <div id="prevention">
             <div class="container">
                 <!--Bootstrap 4 padding top and bottom 4-->
                 <h2 class="py-4">Prevention</h2>
@@ -122,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <div id="treatment" >
+        <div id="treatment">
             <div class="container">
                 <!--Bootstrap 4 padding top and bottom 4-->
                 <h2 class="text-right py-4">Treatment</h2>
@@ -144,7 +144,7 @@
                 </div>
             </div>
         </div>
-        <div id="free-vaccination" >
+        <div id="free-vaccination">
             <div class="container">
                 <!--Bootstrap 4 padding top and bottom 4-->
                 <h2 class="py-4">Find free Flu vaccination</h2>
@@ -159,16 +159,17 @@
                         Nulla unde sint, repellendus, possimus tenetur officiis quod provident molestias itaque nemo magnam, 
                         minima quae natus cum!
                         <!--Bootstrap 4 padding top 3-->
-                        <form class="pt-3">
+                        <form name="form_postcode" action="#free-vaccination" class="pt-3">
                             <div class="form-group">
                                 <label for="postcode">Postcode</label>
-                                <input type="text" class="form-control" id="postcode" aria-describedby="pharmacyBypostcode">
+                                <input type="text" name="code" class="form-control" id="postcode" minlength="5" maxlength="7" aria-describedby="pharmacyBypostcode">
                                 <small id="pharmacyBypostcode" 
                                     class="form-text text-muted">Pharmacies providing free flu vaccination for risk groups.</small>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="button" value="submit" class="btn btn-primary" onclick="text(form.code)">Submit</button>
                             </div>
+                            <div id="invalid-alert"></div>
                         </form>
-                        <div class="vac-results"></div>
+                        <div id="vac-results"></div>
                     </div>
                 </div>
             </div>
@@ -209,7 +210,6 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../static/assets/js/main.js"></script>
 </body>
 </html>

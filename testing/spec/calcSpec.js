@@ -1,6 +1,5 @@
 // First testing true for postcode "abcdef" 
 
-
 describe("Postcode_validator", function(){
     describe("Text tests", function() {
         it("should return true", function(){
@@ -23,6 +22,9 @@ describe("Postcode_validator", function(){
         });
         it("should return true", function() {
             expect(text("abc123")).toBe(true);
+        });
+        it("should return true", function() {
+            expect(text("abc123as")).toBe(false);
         });
     });
 });
